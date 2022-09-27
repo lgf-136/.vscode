@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "steoates.autoimport"
+    "steoates.autoimport",
     "formulahendry.code-runner",
     "vue.volar",
     "vue.vscode-typescript-vue-plugin",
