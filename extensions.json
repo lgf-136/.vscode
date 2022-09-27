@@ -15,7 +15,8 @@
     "mhutchie.git-graph",
     "ritwickdey.liveserver",
     "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
     "shardulm94.trailing-spaces",
-    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
