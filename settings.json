@@ -8,7 +8,7 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
+    "source.fixAll.stylelint": true
   },
   "eslint.validate": [
     "vue",
@@ -43,20 +43,11 @@
   "less.validate": false,
   "scss.validate": false,
   // 配置stylelint检查的文件类型范围
-  "stylelint.validate": [
-    "css",
-    "less",
-    "postcss",
-    "scss",
-    "sass",
-    "vue"
-  ],
+  "stylelint.validate": ["css", "less", "postcss", "scss", "sass", "vue"],
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "cSpell.words": [
-    "utools"
-  ],
+  "cSpell.words": ["utools"]
   // "[less]": {
   //   "editor.defaultFormatter": "stylelint.vscode-stylelint"
   // },
