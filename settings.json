@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "'Fira Code', 'Cascadia Code',Consolas, 'Courier New', monospace",
-  "debug.console.fontFamily": "Hack Nerd Font",
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "debug.console.fontFamily": "Hack Nerd Font,Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Hack Nerd Font,Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "prettier.enable": false,
@@ -43,11 +43,26 @@
   "less.validate": false,
   "scss.validate": false,
   // 配置stylelint检查的文件类型范围
-  "stylelint.validate": ["css", "less", "postcss", "scss", "sass", "vue"],
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "sass",
+    "vue"
+  ],
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "cSpell.words": ["utools"]
+  "cSpell.words": [
+    "utools"
+  ],
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
   // "[less]": {
   //   "editor.defaultFormatter": "stylelint.vscode-stylelint"
   // },
@@ -57,4 +72,10 @@
   // "[scss]": {
   //   "editor.defaultFormatter": "stylelint.vscode-stylelint"
   // }
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  }
 }
