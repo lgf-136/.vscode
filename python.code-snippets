@@ -15,4 +15,31 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"python导入pandas库": {
+		"scope": "python",
+		"prefix": "pd",
+		"body": [
+			"import pandas as pd",
+			"$1"
+		],
+		"description": "python导入pandas库"
+	},
+	"python导入numpy库": {
+		"scope": "python",
+		"prefix": "np",
+		"body": [
+			"import numpy as np",
+			"$1"
+		],
+		"description": "python导入numpy库"
+	},
+	"python导入matplotlib图形库1": {
+		"scope": "python",
+		"prefix": "plt",
+		"body": [
+			"import matplotlib.pylab as plt",
+			"$1"
+		],
+		"description": "python导入matplotlib图形库"
+	}
 }
